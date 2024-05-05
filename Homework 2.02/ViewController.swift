@@ -9,9 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var redLightLabel: UIView!
+    @IBOutlet var yellowLightLabel: UIView!
+    @IBOutlet var greenLightLabel: UIView!
+    @IBOutlet var lightLabels: [UIView]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        for lightLabel in lightLabels {
+//            lightLabel.layer.cornerRadius = 50
+//            lightLabel.alpha = 1
+//        }
+        
     }
 
 
