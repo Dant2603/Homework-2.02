@@ -9,10 +9,6 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet var redLightLabel: UIView!
-    @IBOutlet var yellowLightLabel: UIView!
-    @IBOutlet var greenLightLabel: UIView!
-    @IBOutlet var lightLabels: [UIView]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
