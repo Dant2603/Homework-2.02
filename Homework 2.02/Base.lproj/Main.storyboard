@@ -40,10 +40,11 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFc-vb-PhL">
-                                <rect key="frame" x="168.66666666666666" y="797.66666666666663" width="92.999999999999972" height="34.333333333333371"/>
+                                <rect key="frame" x="168.66666666666666" y="778.66666666666663" width="92.999999999999972" height="30"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="93" id="PVQ-mX-2cn"/>
+                                    <constraint firstAttribute="height" constant="30" id="Y9y-Iv-mLt"/>
                                 </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -59,8 +60,7 @@
                             <constraint firstItem="pNb-th-6RQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="DJl-q7-UlV"/>
                             <constraint firstItem="pNb-th-6RQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" multiplier="4:3" id="SD5-gm-Q8k"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pNb-th-6RQ" secondAttribute="trailing" constant="140" id="lGh-nM-2tV"/>
-                            <constraint firstItem="uFc-vb-PhL" firstAttribute="top" secondItem="pNb-th-6RQ" secondAttribute="bottom" constant="98.999999999999886" id="m4l-r4-ZDt"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uFc-vb-PhL" secondAttribute="bottom" constant="66" id="m7U-f6-tpc"/>
+                            <constraint firstItem="uFc-vb-PhL" firstAttribute="top" secondItem="pNb-th-6RQ" secondAttribute="bottom" constant="80" id="m4l-r4-ZDt"/>
                             <constraint firstItem="uFc-vb-PhL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tAV-F8-R41"/>
                         </constraints>
                     </view>
